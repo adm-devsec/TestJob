@@ -44,15 +44,15 @@
 
 6) ответ на запрос представляет из себя объект, сериализованный в JSON, с отступами для удобного чтения, со следующими полями:
 
-is_error - int - есть или нет ошибка при обработке запроса
-error_code - string - текстовый код ошибки (придумать самостоятельно)
-error_message - string - для "иных ошибок" - exception.errormessage
-elements_count - int - количество выбранных по селектору элементов
-emails_count - int - количество найденных email
-url - string - URL в открытом виде (раскодированный из base64)
-decrypted_plain_text - string - текст расшифрованный из полученного шифротекста и ключа
-elements_attr_list - List<string> - список выбранных из обнаруженных элементов атрибутов
-emails_list - List<string> - список email
+* is_error - int - есть или нет ошибка при обработке запроса
+* error_code - string - текстовый код ошибки (придумать самостоятельно)
+* error_message - string - для "иных ошибок" - exception.errormessage
+* elements_count - int - количество выбранных по селектору элементов
+* emails_count - int - количество найденных email
+* url - string - URL в открытом виде (раскодированный из base64)
+* decrypted_plain_text - string - текст расшифрованный из полученного шифротекста и ключа
+* elements_attr_list - List<string> - список выбранных из обнаруженных элементов атрибутов
+* emails_list - List<string> - список email
 
 
 
