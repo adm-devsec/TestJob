@@ -59,8 +59,8 @@
 * emails_count - int - количество найденных email
 * url - string - URL в открытом виде (раскодированный из base64)
 * decrypted_plain_text - string - текст расшифрованный из полученного шифротекста и ключа
-* elements_attr_list - List<string> - список выбранных из обнаруженных элементов атрибутов
-* emails_list - List<string> - список email
+* elements_attr_list - List(string) - список выбранных из обнаруженных элементов атрибутов
+* emails_list - List(string) - список email
 
 9) по пути /api/swagger должен открыться swagger для удобного тестирования api-функции
 
